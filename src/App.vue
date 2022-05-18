@@ -1,6 +1,6 @@
 <template>
   <div id="app" v-cloak>
-    <router-view />
+    <router-view v-wechat-title="$route.meta.title"/>
   </div>
 </template>
 

@@ -8,7 +8,8 @@ import { Pagination } from 'element-ui'
 import 'nprogress/nprogress.css'
 import VueLazyload from 'vue-lazyload'
 import 'swiper/swiper-bundle.css'
-
+import VueWechatTitle from 'vue-wechat-title'
+Vue.use(VueWechatTitle)
 Vue.use(VueLazyload, {
   preLoad: 1.3,
   // error: '@/assets/error.png',

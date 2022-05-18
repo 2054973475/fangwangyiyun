@@ -17,6 +17,7 @@
     "swiper": "^6.8.4",
     "vue": "^2.6.14",
     "vue-router": "^3.5.1",
+    "vue-wechat-title": "^2.0.7",
     "vuex": "^3.6.2"
   },
   "devDependencies": {

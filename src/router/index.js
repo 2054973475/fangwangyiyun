@@ -30,26 +30,30 @@ const routes = [
       {
         path: 'home',
         component: () => import('../views/MainViews/HomeView'),
-        redirect: '/',
+        redirect: 'home/',
         children: [
           {
             path: '/',
             name: 'homePage',
+            meta: { title: '网易云音乐' },
             component: () => import('../views/MainViews/HomeView/HomePage')
           },
           {
             path: 'artist',
             name: 'artist',
+            meta: { title: '歌手' },
             component: () => import('../views/MainViews/HomeView/Artist')
           },
           {
             path: 'rankingList',
             name: 'rankingList',
+            meta: { title: '排行榜' },
             component: () => import('../views/MainViews/HomeView/RankingList')
           },
           {
             path: 'songList',
             name: 'songList',
+            meta: { title: '歌单' },
             component: () => import('../views/MainViews/HomeView/SongList')
           }
         ]
