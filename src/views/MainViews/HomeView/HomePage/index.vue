@@ -223,7 +223,7 @@ export default {
           flex-wrap: wrap;
           margin-top: 20px;
           li {
-            margin-left: 44px;
+            margin-left: 60px;
             margin-bottom: 30px;
             .coverImg {
               position: relative;
@@ -274,14 +274,14 @@ export default {
               width: 140px;
             }
           }
-          li:nth-of-type(4n-3) {
+          li:nth-of-type(5n-4) {
             margin: 0;
           }
         }
       }
     }
     .right {
-      width: 250px;
+      width: 0px;
     }
   }
 }

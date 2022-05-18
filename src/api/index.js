@@ -30,7 +30,7 @@ export const reqArtistList = (params) => request({
 })
 // 获取首页推荐歌单
 export const reqRecommendSongList = () => request({
-  url: '/personalized?limit=8'
+  url: '/personalized?limit=10'
 })
 // 获取所有排行榜信息
 export const reqRankingClassifyList = () => request({
