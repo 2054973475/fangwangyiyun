@@ -5,7 +5,7 @@
 </template>
 
 <style lang="less">
-@import url('https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css");
 #app {
   background-color: rgb(245, 245, 245);
 }
